@@ -9,7 +9,7 @@ const Course = () => {
   },[])
 
   return (
-    <div>Courses - {router.query.slug}</div>
+    <div>Courses/update - {router.query.slug}</div>
   )
 }
 
