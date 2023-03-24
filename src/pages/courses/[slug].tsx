@@ -20,7 +20,7 @@ export function getStaticPaths() {
   }
 }
 
-export function getServerStaticProps() {
+export function getStaticProps() {
   return {props: {}, revalidate: 60 * 5}
 }
 
