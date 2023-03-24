@@ -20,7 +20,7 @@ export default function Home() {
           <div>
             <a
               href='/courses/123'
-              target="_blank"
+              target="_self"
               rel="noopener noreferrer"
             >
               By{' '}
@@ -60,7 +60,7 @@ export default function Home() {
           <a
             href='/courses/123'
             className={styles.card}
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >
             <h2>
@@ -74,7 +74,7 @@ export default function Home() {
           <a
             href='/courses/123'
             className={styles.card}
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >
             <h2>
@@ -88,7 +88,7 @@ export default function Home() {
           <a
             href='/courses/123'
             className={styles.card}
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >
             <h2>
@@ -102,7 +102,7 @@ export default function Home() {
           <a
             href='/courses/123'
             className={styles.card}
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >
             <h2>
