@@ -13,4 +13,15 @@ const Course = () => {
   )
 }
 
+export function getStaticPaths() {
+  return {
+    paths: [],
+    fallback: true
+  }
+}
+
+export function getServerStaticProps() {
+  return {props: {}, revalidate: 60 * 5}
+}
+
 export default Course
